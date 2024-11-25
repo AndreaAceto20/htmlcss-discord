@@ -6,7 +6,7 @@
 
 /* regole header */
 header {
-    background-color: lightblue;
+    background-color: #3160E0;
     height: 40px;
 }
 /* regole generali container */
@@ -15,44 +15,102 @@ header {
     justify-content: center;
     align-items: center;
 }
-/* bordo generale */
-.border{
-    border: dotted black;
-}
 
 header .container {
-    background-color: yellow;
-    height: 20px;
+    height: 40px;
     width: 70%;
     justify-content: space-between;
-} 
+}
 
 .sides {
     width: 20%;
+    height: 70%;
 }
 
 .links{
     display: flex;
     justify-content: center;
-    border-left: dotted black;
-    border-right: dotted black;
     width: 80%;
 }
+
+#top-links{
+    list-style: none;
+}
+
+.txt-bianco{
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 .login {
     display: flex;
     justify-content: flex-end;
 }
-/* regole hero */
-.hero {
-    background-color: blue;
-    height: 400px;
+
+button{
+    border-radius: 50px;
+    border-style: none;
 }
 
-#text {
-    background-color: blueviolet;
+.login button{
+    width: 40%;
+    height: 100%;
+}
+
+/* regole jumbotron */
+.jumbotron{
+    background-image: url(./../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.jumbotron h2{
+    margin-bottom: 10%;
+}
+
+.text {
     height: 90%;
     width: 50%;
+}
+
+#buttons{
+    padding: 5% 7%;
+    width: 100%;
+    display: flex;
+    height: 9%;
+}
+
+#buttons button{
+    height: 100%;
+}
+
+.bianco{
+    background-color: #fff;
+}
+
+.nero{
+    background-color: black;
+}
+
+.download::before{
+    content: "\2193 ";
+    width: 40%;
+}
+
+.txt-nero{
+    color: black;
+}
+
+#Open{
+    width: 60;
+    margin-left: 10%;
 }
 
 /* main */
@@ -69,41 +127,26 @@ header .container {
     width: 70%;
 }
 
-.bianco{
-    background-color: #fff;
+.mid-section{
     height: 400px;
     width: auto;
 }
 
 .grigio {
     background-color: grey;
-    height: 400px;
-    width: auto;
-}
-
-.grigio .immagine{
-    border-left:dotted black ;
-}
-
-.bianco .immagine{
-    border-right:dotted black ;
 }
 
 .immagine{
-    background-color: blue;
     width: 60%;
     height: 100%;
 }
 
 .testo{
-    background-color: pink;
     width: 40%;
     height: 100%
 }
 
 .verde {
-    height: ;
-    background-color: green;
 }
 
 .end-main{
@@ -126,24 +169,23 @@ footer{
 }
 
 .salmone{
-    background-color: #F08180;
+    
 }
 
 .ciano{
-    background-color: #20B3AA;
+   
 }
 
 .divisore{
-    border-bottom: solid white;
+    border-bottom: solid white 1px;
     margin: 30px 0;
 }
 
 .bottom{
     justify-content: space-between;
-    background-color: #7FFFD4;
     height: 40px;
 }
 
 .edges{
-    background-color: #FFB5C3;
+    
 }
