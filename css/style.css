@@ -67,11 +67,21 @@ button{
     background-image: url(./../img/jumbo.png);
     background-size: cover;
     height: 500px;
+}
+
+.column-container {  
+    flex-direction: column;
+ }
+
+.size{
     font-size: 25px;
+}
+
+.text-center{
     text-align: center;
 }
 
-.jumbotron h2{
+h2{
     margin-bottom: 10%;
 }
 
@@ -114,10 +124,6 @@ button{
 }
 
 /* main */
-.column-container {  
-    flex-direction: column;
- }
-
  .testo-foto{
     width: 60%;
  }
@@ -128,8 +134,17 @@ button{
 }
 
 .mid-section{
-    height: 400px;
     width: auto;
+}
+
+.testo{
+    padding: 0 5%;
+    width: 40%;
+    height: 100%:
+}
+
+.testo h2{
+    width: 70%;
 }
 
 .grigio {
@@ -139,11 +154,6 @@ button{
 .immagine{
     width: 60%;
     height: 100%;
-}
-
-.testo{
-    width: 40%;
-    height: 100%
 }
 
 .verde {
